@@ -1,0 +1,3 @@
+pip install --only-binary=:all: opencv-python==4.10.0.84 PyQt6
+
+python -c "import cv2, PyQt6; print('cv2:', cv2.__version__); print('PyQt6:', PyQt6.__version__)"
